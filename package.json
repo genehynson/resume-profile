@@ -2,9 +2,13 @@
   "name": "resume-profile",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "json-server --watch --p 4000 db.json"
+    "dev": "json-server --watch --p 4000 db.json",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "9.x"
   },
   "repository": {
     "type": "git",
